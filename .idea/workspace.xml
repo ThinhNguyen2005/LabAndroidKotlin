@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b01d1e04-6d94-4f64-86c1-464bf330f22f" name="Changes" comment="cập nhật cho đúng thư mục" />
+    <list default="true" id="b01d1e04-6d94-4f64-86c1-464bf330f22f" name="Changes" comment="cập nhật cho đúng thư mục">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +27,7 @@
 }]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/ThinhNguyen2005/Lab1",
+    "url": "https://github.com/ThinhNguyen2005/Lab1_KeoThaAvatar.git",
     "accountId": "6d8f0d19-030d-4e23-9990-c0fcafad8f4a"
   }
 }]]></component>
@@ -75,7 +77,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761967875322</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="cập nhật cho đúng thư mục">
+      <option name="closed" value="true" />
+      <created>1761968993002</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761968993002</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
