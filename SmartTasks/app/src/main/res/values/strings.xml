@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SmartTasks</string>
+    <string name="default_web_client_id">313348777993-eflncp6n6fih7j1gbnk3v26365v9563p.apps.googleusercontent.com</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "313348777993",
+    "project_id": "managerbook-d3441",
+    "storage_bucket": "managerbook-d3441.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313348777993:android:f0aa3cda8e362bc263b0d8",
+        "android_client_info": {
+          "package_name": "com.hoangiathinh.smarttasks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313348777993-hijutvhk5n99ktag11p8o79lrm2fokb5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hoangiathinh.smarttasks",
+            "certificate_hash": "b35fc2a03bb76920b9d63848a4090c665eefc3c0"
+          }
+        },
+        {
+          "client_id": "313348777993-eflncp6n6fih7j1gbnk3v26365v9563p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4YNtOzVdZUBpZyfbiTJCcp3TeQ0_pfmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313348777993-eflncp6n6fih7j1gbnk3v26365v9563p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
