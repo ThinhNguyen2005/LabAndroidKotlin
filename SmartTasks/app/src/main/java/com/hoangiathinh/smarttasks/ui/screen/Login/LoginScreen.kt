@@ -1,4 +1,4 @@
-package com.hoangiathinh.smarttasks.ui.screen
+package com.hoangiathinh.smarttasks.ui.screen.Login
 
 import android.app.Activity
 import android.widget.Toast

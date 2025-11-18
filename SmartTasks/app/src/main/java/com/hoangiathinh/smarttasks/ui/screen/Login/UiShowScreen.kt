@@ -1,4 +1,4 @@
-package com.hoangiathinh.smarttasks.ui.screen
+package com.hoangiathinh.smarttasks.ui.screen.Login
 
 import com.hoangiathinh.smarttasks.ui.util.TextInputComponent
 import androidx.compose.foundation.layout.Column

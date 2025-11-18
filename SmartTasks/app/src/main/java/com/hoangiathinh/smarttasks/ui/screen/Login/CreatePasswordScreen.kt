@@ -1,4 +1,4 @@
-package com.hoangiathinh.smarttasks.ui.screen
+package com.hoangiathinh.smarttasks.ui.screen.Login
 
 import androidx.compose.runtime.Composable
 import com.hoangiathinh.smarttasks.ui.util.TextInputComponent

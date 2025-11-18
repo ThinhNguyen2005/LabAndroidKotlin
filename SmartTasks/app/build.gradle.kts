@@ -3,6 +3,9 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     id("com.google.gms.google-services")
+    id("org.jetbrains.kotlin.kapt")
+    id("com.google.dagger.hilt.android")
+    id("com.google.devtools.ksp")
 
 }
 
@@ -52,9 +55,16 @@ dependencies {
     // Google Sign-In (Chỉ cần 1 dòng)
     implementation("com.google.android.gms:play-services-auth:21.2.0")
 
-    // People API và stack cũ đã loại bỏ vì không sử dụng
-
-
+// Hilt
+    implementation(libs.hilt.android)
+    kapt(libs.hilt.compiler)
+    // Retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
+    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
+// RecyclerView
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
     // Các thư viện UI, Navigation và tiện ích
     implementation("io.coil-kt:coil-compose:2.6.0")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0")
@@ -65,12 +75,16 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.8.1")
 
-
+// Navigation Component
+    implementation("androidx.navigation:navigation-fragment-ktx:2.7.5")
+    implementation("androidx.navigation:navigation-ui-ktx:2.7.5")
+// Material Design
+    implementation("com.google.android.material:material:1.10.0")
     //GỌi API
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:1.0.0")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
-
+    implementation (platform("androidx.compose:compose-bom:2024.04.00"))
 
     // Các phụ thuộc Compose và AndroidX cơ bản từ `libs`
     implementation(libs.androidx.core.ktx)
