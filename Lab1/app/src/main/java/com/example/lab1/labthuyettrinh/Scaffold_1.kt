@@ -63,8 +63,3 @@ fun MyScaffoldApp() {
         }
     )
 }
-@Preview(showBackground = true)
-@Composable
-fun MyScaffoldAppPreview() {
-    MyScaffoldApp()
-}
