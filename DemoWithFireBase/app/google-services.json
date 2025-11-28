@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "725714029702",
+    "project_id": "lablamquenvoifirebase",
+    "storage_bucket": "lablamquenvoifirebase.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725714029702:android:0fa50fe0d17c0cea3dd507",
+        "android_client_info": {
+          "package_name": "com.hoangiathinh.demowithfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725714029702-gg75tqqd1v1ge04ro5bp65ju2ekk3hpg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hoangiathinh.demowithfirebase",
+            "certificate_hash": "5210052a35c23094d49575cc9645ea998ec57c93"
+          }
+        },
+        {
+          "client_id": "725714029702-rpg915b7sp5868dii9mb7ol38nhqc54h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hoangiathinh.demowithfirebase",
+            "certificate_hash": "b35fc2a03bb76920b9d63848a4090c665eefc3c0"
+          }
+        },
+        {
+          "client_id": "725714029702-bl454ufgt10rvul32j0eleblk1d0ure7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNAyTKxlROXT5u1nzoaeCMQGVt4L_vecw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "725714029702-bl454ufgt10rvul32j0eleblk1d0ure7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
